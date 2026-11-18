@@ -9,6 +9,7 @@ Here is a list of utilities present in this repository down bellow:
 
 |Utility|Description|
 |-------|-----------|
+|[color](/color/)|Simple color changer.|
 |[lcat](/lcat/)|Simple cat program with a line counter.|
 |[passgen](/passgen/)|Simple password generator utility.|
 |[touch](/touch/)|Simple implementation of the touch command.|

@@ -1,3 +1,8 @@
+/*
+ *  touch.c - Simple touch command implementation.
+ *  Created by Jan Hruza on 18 Nov 2026
+ */ 
+
 #include <stdlib.h>
 #include <stdio.h>
 

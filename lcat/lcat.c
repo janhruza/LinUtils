@@ -1,7 +1,11 @@
+/* 
+ *  lcat.c - Simple cat command implementation with a line counter.
+ *  Created by Jan Hruza on 18 Now 2026
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 
-// simple cat with a line counter
 int main(int argc, char *argv[]) {
 
     if (argc < 2) {

@@ -13,6 +13,15 @@ Here is a list of utilities present in this repository down bellow:
 |[passgen](/passgen/)|Simple password generator utility.|
 |[touch](/touch/)|Simple implementation of the touch command.|
 
+## Prerequisites
+In order to build those utilities, you'll only need any C compiler.
+I used `gcc` during the development and testing.
+
+If you pick the `gcc` compiler, the compilation is as easy as:
+
+```bash
+gcc source.c -o bin/target.out
+```
 
 ## License
 LinUtils is licensed under the MIT license - available [here](LICENSE.md).

@@ -8,7 +8,7 @@
 #include <string.h>
 #include <errno.h>
 
-# define ARRAY_SIZE(arr) (sizeof(arr) / sizeof(arr[0]))
+#define ARRAY_SIZE(arr) (sizeof(arr) / sizeof(arr[0]))
 
 char *colors[] = {
     " 0 - Black   8 - Gray",

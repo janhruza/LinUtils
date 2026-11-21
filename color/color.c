@@ -31,7 +31,18 @@ void ShowHelp(char* prog)
         puts(colors[i]);
     }
 
-    printf("\nExample: '%s 0F' will set the white text on a black screen.\n", prog);
+    for (int i = 0; i < 16; i++)
+    {
+        if (i % 8 == 0)
+        {
+            printf("\n");
+        }
+
+        int code = (i < 8) ? 40 + i : 100 + (i - 8);
+        printf("\033[%dm  %X  \033[0m", code, i);
+    }
+
+    printf("\n\nExample: '%s 0F' will set the white text on a black screen.\n", prog);
 }
 
 long ReadColor(char c)

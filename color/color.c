@@ -42,7 +42,7 @@ void ShowHelp(char* prog)
         printf("\033[%dm  %X  \033[0m", code, i);
     }
 
-    printf("\n\nExample: '%s 0F' will set the white text on a black screen.\n", prog);
+    printf("\n\nExample: '%s 0F' will set the \033[40;107m black text on a white \033[0m screen.\n", prog);
 }
 
 long ReadColor(char c)
